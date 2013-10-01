@@ -4,13 +4,28 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-html { 
+html {
+	padding: 1%;
+}
+
+.home { 
   background: url(../img/photo.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+.portfolio {
+	  background: url(../img/texture.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+
+	
 
 header {
 	padding-top: 1rem;
@@ -23,7 +38,7 @@ body {
 	font-family: normal 100%/1.4 Helvetica, sans-serif;
 }
 
-article{
+article {
 	padding-top: 10rem;
 }
 
@@ -57,6 +72,17 @@ footer {
 .size img {
 	height: 15%;
 	width: 15%;
+}
+
+.box {
+	width: 100%;
+	padding-top: 10rem;
+}
+
+.box img {
+	float: left;
+	width: 32%;
+	padding-right: 1.2%;
 }
 
 

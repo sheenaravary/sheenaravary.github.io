@@ -1,0 +1,160 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	padding: 1%;
+}
+
+.home { 
+  background: url(../img/photo.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio {
+	  background: url(../img/texture.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+
+	
+
+header {
+	padding-top: 1rem;
+	position: fixed;
+	width: 100%;
+}
+
+
+body {
+	font-family: normal 100%/1.4 Helvetica, sans-serif;
+}
+
+article {
+	padding-top: 10rem;
+}
+
+p {
+	font-family: Helvetica, sans-serif;
+	float: left;
+	display: block;
+	padding: 0.4%;
+	float: left;
+	background-color: rgb(38,255,190);
+	opacity: 0.4;
+	width: 100%;
+	aligh: left;
+	clear: both;
+}
+
+footer {
+	float: right;
+	width: 70%;
+	clear: both;
+}
+
+.one,
+.two,
+.three {
+	float: right;
+	display: inline-table;
+	bottom: 0;
+}
+
+.size img {
+	height: 15%;
+	width: 15%;
+}
+
+.box {
+	width: 100%;
+	padding-top: 10rem;
+}
+
+.box img {
+	float: left;
+	width: 32%;
+	padding-right: 1.2%;
+}
+
+
+@media only screen and (min-width: 45em) {
+	p {
+		float: right;
+		width: 60%;
+		clear: both;
+	}
+	
+	header {
+		float: right;
+		position: absolute;
+	}
+	
+	footer {
+		width: 20%;
+	}
+
+
+@media only screen and (min-width: 60em) {
+	p { 
+		float: right;
+		width: 50%;
+		clear: both;
+	}
+		
+		
+}
+
+@media only screen and (min-width: 75em) {
+	p {
+		float: right;
+		width: 20%;
+		clear: both;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width: 100em) {
+	p {
+		font-size: 1.5em;
+		width: 30%;
+	}
+	
+	footer {
+		width: 40%;
+	}
+	
+}
+
+@media only screen and (min-width: 150em) {
+	img {
+		width: 120%;
+	}
+	
+	p {
+		font-size: 2em;
+	}
+	
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear:both
+}
+
+.clearfix {
+	*zoom: 1; /* You will get a CSS validator error on this line */
+}
+
