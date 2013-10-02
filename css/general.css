@@ -81,7 +81,7 @@ footer {
 
 .box img {
 	float: left;
-	width: 32%;
+	width: 100%;
 	padding-right: 1.2%;
 }
 
@@ -101,6 +101,18 @@ footer {
 	footer {
 		width: 20%;
 	}
+	
+	.box {
+	width: 100%;
+	padding-top: 10rem;
+}
+
+.box img {
+	float: left;
+	width: 32%;
+	padding-right: 1.2%;
+}
+
 
 
 @media only screen and (min-width: 60em) {
